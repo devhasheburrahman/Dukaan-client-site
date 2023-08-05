@@ -15,18 +15,16 @@ export default function Banner() {
                 <p className='font-[Inter] text-base text-[#505050] '>More category</p>
             </div>
 
-            <div className="hero w-[664px] h-[373px] " style={{ backgroundImage: 'url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)' }}>
-                <div className="hero-overlay bg-opacity-60"></div>
-                <div className="">
-                    <div >
-                        <h1 className=" text-xl  font-[Inter] text-black">Latest trending</h1>
-                        <p className="  text-2xl text-black font-bold font-[Inter]">Electronic items</p>
-                        <button className="bg-white px-4 py-[10px] rounded-lg text-[13px] font-[Inter] font-medium   text-black">Get Started</button>
-                    </div>
+            <div className="hero w-[664px] h-[373px] flex pl-10 " style={{ backgroundImage: 'url(/banner.png)' }}>
+                <div className='flex flex-col '>
+                    <h1 className=" text-xl  font-[Inter] text-black">Latest trending</h1>
+                    <p className="  text-2xl text-black font-bold font-[Inter]">Electronic items</p>
+                    <button className="bg-white px-4 py-[10px] rounded-lg text-[13px] font-[Inter] font-medium   text-black">Get Started</button>
                 </div>
+
             </div>
-            <div className='w-[200px] flex flex-col gap-[10px] rounded-lg '>
-                <div className='bg-[#E3F0FF] p-4'>
+            <div className='w-[200px] flex flex-col gap-[10px]'>
+                <div className='bg-[#E3F0FF] rounded-lg p-4'>
                     <div className='flex gap-[9px]'>
                         <img className='rounded-full h-[44px]' src="Avatar.jpg " alt="" />
                         <p className='text-base font-[Inter]'>Hi , User <br /> Let's get stated</p>
@@ -40,11 +38,7 @@ export default function Banner() {
                 <div className='bg-[#55BDC3] rounded-md'>
                     <p className='font-[Inter] p-4 text-white text-base'>Send quotes with supplier preferences</p>
                 </div>
-
             </div>
-
-
-
         </div>
     )
 }
