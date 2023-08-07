@@ -8,7 +8,7 @@ export default function MainHeader() {
             <div>
                 <img className='h-[77px]' src="/Dukaan.png" alt="" />
             </div>
-            <div>
+            {/* <div>
                 <div className="form-control border-[1.5px]  border-[#0067FF] rounded-[10px] ">
                     <div className="input-group">
                         <input type="text" cl placeholder="Search…" className="input   bg-white" />
@@ -19,6 +19,24 @@ export default function MainHeader() {
                         </select>
                         <button className="px-4 text-white bg-gradient-to-r from-[#127FFF] to-[#0067FF] ">Search</button>
                     </div>
+                </div>
+            </div> */}
+
+            <div className="join rounded-[10px] border-[1.5px] border-[#127FFF]">
+                <div className='form-control'>
+                    <div>
+                        <input className="input w-[600px] join-item" placeholder="Search...." />
+                    </div>
+                </div>
+                <select className="select rounded-lg border-x-[1.5px] border-x-[#127FFF] bg-white  text-black h-[40px]  select-bordered join-item">
+                    <option  selected>Filter</option>
+                    <option>T-shirts</option>
+                    <option>Mug</option>
+                    <option>Action</option>
+                </select>
+                <div className="indicator">
+
+                    <button className="px-4 text-white rounded-lg bg-[#127FFF] join-item">Search</button>
                 </div>
             </div>
 

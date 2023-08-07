@@ -1,11 +1,19 @@
 import React from 'react'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 export default function Footer() {
     return (
         <footer className="footer p-10 bg-base-200 text-base-content">
             <div>
-                <img className='h-28 ' src="/Dukaan.png" alt="" />
+                <img className='h-20 ' src="/Dukaan.png" alt="" />
                 <p>Dokaan Online Shop BD <br />Providing reliable tech since 1992</p>
+                <div className='flex gap-3'>
+                    <p><FaFacebook /></p>
+                    <p><FaInstagram /></p>
+                    <p><FaTwitter /></p>
+                    <p><FaLinkedin /></p>
+                    <p><FaYoutube /></p>
+                </div>
             </div>
             <div>
                 <span className="footer-title"> About</span>
@@ -29,11 +37,13 @@ export default function Footer() {
             </div>
             <div>
                 <p>Get App</p>
-                <img src="" alt="" />
-                <img src="" alt="" />
+                <div className='flex flex-col gap-5'>
+                    <img src="/gg.svg" alt="" />
+                    <img src="/market.png" alt="" />
+                </div>
             </div>
 
-            
+
         </footer>
     )
 }
