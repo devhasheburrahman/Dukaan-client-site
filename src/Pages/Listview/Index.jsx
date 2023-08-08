@@ -5,6 +5,7 @@ import NewLatter from '../../Component/Common/Newlatter'
 import Footer from '../../Component/Common/Footer'
 import LeftNavigation from '../../Component/Common-2/LeftNavigation'
 import Content from '../../Component/Common-2/Content'
+import Product from '../../Component/Common-2/pages/Product/Product'
 
 export default function ListView() {
     return (
@@ -17,7 +18,8 @@ export default function ListView() {
 
                 </div>
                 <div className='w-3/4'>
-                    <Content />
+                    {/* <Content /> */}
+                    <Product/>
                 </div>
             </div>
             <NewLatter />

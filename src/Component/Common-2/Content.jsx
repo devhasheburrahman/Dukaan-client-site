@@ -63,7 +63,8 @@ export default function Content() {
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda at dolores, quasi sapiente inventore alias debitis possimus enim beatae saepe!
             </div>
             <button className='text-[#0D6EFD] text-base font-[Inter] tracking-[-0.2px] '>View Details</button>
-          </div>  <div>
+          </div>
+          <div>
             <img className='bg-white mt-10 h-10 w-16  p-2 shadow-lg' src="/love.png" alt="" />
           </div>
 
