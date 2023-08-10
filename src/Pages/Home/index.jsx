@@ -12,6 +12,7 @@ import Suppliers from "../../Component/Common/suppliers";
 export default function Home() {
     return (
         <div>
+         
             <MainHeader />
             <SubHeader />
             <Banner />

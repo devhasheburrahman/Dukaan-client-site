@@ -6,13 +6,14 @@ export default function Footer() {
         <footer className="footer p-10 bg-base-200 text-base-content">
             <div>
                 <img className='h-20 ' src="/Dukaan.png" alt="" />
-                <p>Dokaan Online Shop BD <br />Providing reliable tech since 1992</p>
+                <p>Dokaan Online Shop BD </p>
+                <p>Providing reliable tech since 1992</p>
                 <div className='flex gap-3'>
-                    <p><FaFacebook /></p>
-                    <p><FaInstagram /></p>
-                    <p><FaTwitter /></p>
-                    <p><FaLinkedin /></p>
-                    <p><FaYoutube /></p>
+                    <p className='text-2xl'><FaFacebook /></p>
+                    <p className='text-2xl'><FaInstagram /></p>
+                    <p className='text-2xl'><FaTwitter /></p>
+                    <p className='text-2xl'><FaLinkedin /></p>
+                    <p className='text-2xl'><FaYoutube /></p>
                 </div>
             </div>
             <div>

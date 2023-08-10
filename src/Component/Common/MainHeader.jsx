@@ -29,7 +29,7 @@ export default function MainHeader() {
                     </div>
                 </div>
                 <select className="select rounded-lg border-x-[1.5px] border-x-[#127FFF] bg-white  text-black h-[40px]  select-bordered join-item">
-                    <option  selected>Filter</option>
+                    <option selected>Filter</option>
                     <option>T-shirts</option>
                     <option>Mug</option>
                     <option>Action</option>
@@ -46,7 +46,7 @@ export default function MainHeader() {
                     <p className='font-[Inter] text-xs text-[#8B96A5]'>Profile</p>
                 </div>
                 <div className='flex flex-col items-center'>
-                    <p className='text-[#8B96A5] h-[19px] w-[20px]'><FaRegCommentAlt /></p>
+                    <img className='h-[19px] w-[20px]' src="/message.svg" alt="" />
                     <p className='font-[Inter] text-xs text-[#8B96A5]'>Message</p>
                 </div>
                 <div className='flex flex-col items-center'>

@@ -25,7 +25,7 @@ export default function SubHeader() {
                     <option>Mugs</option>
                 </select>
                 <select className="select bg-white  text-black">
-                    <option selected>Slip To</option>
+                    <option selected>Slip To </option>
                     <option>T-shirts</option>
                     <option>Mugs</option>
                 </select>
